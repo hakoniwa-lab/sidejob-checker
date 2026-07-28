@@ -33,7 +33,7 @@ function buildCrossLinkBanner(genre, purpose) {
 }
 
 function buildResultCard(genre, purpose) {
-  const badges = [`<span class="badge">${escapeHtml(genre.category)}</span>`, `<span class="badge">マッチ度 ${starRating(genre.score)}</span>`];
+  const badges = [`<span class="badge">${escapeHtml(genre.category)}</span>`, `<span class="badge badge--accent">マッチ度 ${starRating(genre.score)}</span>`];
   if (genre.tags && genre.tags.requires_budget) {
     badges.push(`<span class="badge badge--warn">初期費用あり</span>`);
   }
