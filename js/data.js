@@ -36,6 +36,11 @@ const GENRES = [
         "label": "クラウディアで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
         "type": "affiliate"
+      },
+      {
+        "label": "ハンドメイドチャンネルでブログライター体験",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+6C1AQA+4V0U+BWVTE",
+        "type": "affiliate"
       }
     ],
     "links_to_subsidy_checker": true,
@@ -118,6 +123,11 @@ const GENRES = [
         "label": "IT求人ナビ フリーランスで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWS+3H1B2Q+4LXM+5YJRM",
         "type": "affiliate"
+      },
+      {
+        "label": "ココナラで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+67V9HU+2PEO+1HL85U",
+        "type": "affiliate"
       }
     ],
     "links_to_subsidy_checker": true,
@@ -156,6 +166,11 @@ const GENRES = [
       {
         "label": "クラウディアで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      },
+      {
+        "label": "ココナラで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+67V9HU+2PEO+1HL85U",
         "type": "affiliate"
       }
     ],
@@ -197,6 +212,11 @@ const GENRES = [
       {
         "label": "クラウディアで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      },
+      {
+        "label": "ココナラで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+67V9HU+2PEO+1HL85U",
         "type": "affiliate"
       }
     ],
@@ -314,6 +334,11 @@ const GENRES = [
         "label": "クラウディアで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
         "type": "affiliate"
+      },
+      {
+        "label": "ココナラで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+67V9HU+2PEO+1HL85U",
+        "type": "affiliate"
       }
     ],
     "links_to_subsidy_checker": true,
@@ -349,7 +374,13 @@ const GENRES = [
       "minne",
       "Creema"
     ],
-    "related_offers": [],
+    "related_offers": [
+      {
+        "label": "minneで作品を出品する",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+6LK8EQ+348+2BHTVM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": false,
     "priority": 3
   },
@@ -519,6 +550,11 @@ const GENRES = [
         "label": "クラウディアで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
         "type": "affiliate"
+      },
+      {
+        "label": "ココナラで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+67V9HU+2PEO+1HL85U",
+        "type": "affiliate"
       }
     ],
     "links_to_subsidy_checker": true,
@@ -639,6 +675,11 @@ const GENRES = [
       {
         "label": "クラウディアで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      },
+      {
+        "label": "ココナラで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+67V9HU+2PEO+1HL85U",
         "type": "affiliate"
       }
     ],
