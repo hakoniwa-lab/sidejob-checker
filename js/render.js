@@ -17,12 +17,11 @@ function escapeHtml(str) {
 
 function buildOfferLinks(genre) {
   const offers = genre.related_offers || [];
-  const objectOffers = offers.filter((o) => typeof o === "object" && o && o.url);
-  if (objectOffers.length === 0) return "";
-  return objectOffers
+  if (offers.length === 0) return "";
+  return offers
     .map(
       (o) =>
-        `<a class="result-card__link result-card__link--offer" href="${escapeHtml(o.url)}" target="_blank" rel="noopener">${escapeHtml(o.label || "関連サービスを見る")}</a>`
+        `<a class="result-card__link result-card__link--offer" href="${escapeHtml(o.url)}" target="_blank" rel="noopener sponsored">${escapeHtml(o.label || "関連サービスを見る")}<span class="badge badge--pr">PR</span></a>`
     )
     .join("");
 }

@@ -8,14 +8,36 @@ const GENRES = [
     "startup_cost_text": "基本無料(PC・ネット環境があればOK)",
     "conditions_text": "特別な資格は不要。継続的に文章を書く時間を確保できることが望ましい。",
     "tags": {
-      "skill": ["writing"],
-      "purpose": ["skill_up", "quick_cash", "independence"],
-      "time_commitment": ["1_2h", "3h_plus", "weekend_only"],
+      "skill": [
+        "writing"
+      ],
+      "purpose": [
+        "skill_up",
+        "quick_cash",
+        "independence"
+      ],
+      "time_commitment": [
+        "1_2h",
+        "3h_plus",
+        "weekend_only"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker", "either"]
+      "social_preference": [
+        "solo_worker",
+        "either"
+      ]
     },
-    "platforms": ["クラウドワークス", "ランサーズ"],
-    "related_offers": [],
+    "platforms": [
+      "クラウドワークス",
+      "ランサーズ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 1
   },
@@ -28,13 +50,28 @@ const GENRES = [
     "startup_cost_text": "仕入れ資金として数万円程度〜",
     "conditions_text": "商品リサーチ・在庫管理の手間がかかる。継続的な仕入れ資金が必要。",
     "tags": {
-      "skill": ["data", "none"],
-      "purpose": ["quick_cash", "independence"],
-      "time_commitment": ["weekend_only", "3h_plus"],
+      "skill": [
+        "data",
+        "none"
+      ],
+      "purpose": [
+        "quick_cash",
+        "independence"
+      ],
+      "time_commitment": [
+        "weekend_only",
+        "3h_plus"
+      ],
       "requires_budget": true,
-      "social_preference": ["solo_worker"]
+      "social_preference": [
+        "solo_worker"
+      ]
     },
-    "platforms": ["メルカリ", "Amazon", "ヤフオク"],
+    "platforms": [
+      "メルカリ",
+      "Amazon",
+      "ヤフオク"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 2
@@ -48,14 +85,41 @@ const GENRES = [
     "startup_cost_text": "学習用の教材・スクール費用として数万〜数十万円かかる場合も",
     "conditions_text": "プログラミングスキルの習得(独学またはスクール)が前提。",
     "tags": {
-      "skill": ["data", "writing"],
-      "purpose": ["skill_up", "independence"],
-      "time_commitment": ["3h_plus", "weekend_only"],
+      "skill": [
+        "data",
+        "writing"
+      ],
+      "purpose": [
+        "skill_up",
+        "independence"
+      ],
+      "time_commitment": [
+        "3h_plus",
+        "weekend_only"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker", "either"]
+      "social_preference": [
+        "solo_worker",
+        "either"
+      ]
     },
-    "platforms": ["クラウドワークス", "ランサーズ", "ココナラ"],
-    "related_offers": [],
+    "platforms": [
+      "クラウドワークス",
+      "ランサーズ",
+      "ココナラ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      },
+      {
+        "label": "IT求人ナビ フリーランスで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWS+3H1B2Q+4LXM+5YJRM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 1
   },
@@ -68,14 +132,33 @@ const GENRES = [
     "startup_cost_text": "編集ソフト代・PC性能への投資が必要な場合あり(数千円〜数万円)",
     "conditions_text": "動画編集ソフトの操作スキルが必要。納期を守る自己管理力も求められる。",
     "tags": {
-      "skill": ["design"],
-      "purpose": ["skill_up", "quick_cash"],
-      "time_commitment": ["3h_plus", "weekend_only"],
+      "skill": [
+        "design"
+      ],
+      "purpose": [
+        "skill_up",
+        "quick_cash"
+      ],
+      "time_commitment": [
+        "3h_plus",
+        "weekend_only"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker"]
+      "social_preference": [
+        "solo_worker"
+      ]
     },
-    "platforms": ["クラウドワークス", "ココナラ"],
-    "related_offers": [],
+    "platforms": [
+      "クラウドワークス",
+      "ココナラ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 2
   },
@@ -88,14 +171,35 @@ const GENRES = [
     "startup_cost_text": "デザインソフト代(月額千円台〜)",
     "conditions_text": "デザインツール(Canva・Illustrator等)の操作スキルが必要。",
     "tags": {
-      "skill": ["design"],
-      "purpose": ["skill_up", "quick_cash", "hobby"],
-      "time_commitment": ["1_2h", "3h_plus", "weekend_only"],
+      "skill": [
+        "design"
+      ],
+      "purpose": [
+        "skill_up",
+        "quick_cash",
+        "hobby"
+      ],
+      "time_commitment": [
+        "1_2h",
+        "3h_plus",
+        "weekend_only"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker"]
+      "social_preference": [
+        "solo_worker"
+      ]
     },
-    "platforms": ["ココナラ", "クラウドワークス"],
-    "related_offers": [],
+    "platforms": [
+      "ココナラ",
+      "クラウドワークス"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 2
   },
@@ -108,14 +212,33 @@ const GENRES = [
     "startup_cost_text": "基本無料",
     "conditions_text": "特別なスキルは不要。正確さとコツコツ続ける根気が求められる。",
     "tags": {
-      "skill": ["data", "none"],
-      "purpose": ["quick_cash"],
-      "time_commitment": ["under_30min", "1_2h"],
+      "skill": [
+        "data",
+        "none"
+      ],
+      "purpose": [
+        "quick_cash"
+      ],
+      "time_commitment": [
+        "under_30min",
+        "1_2h"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker"]
+      "social_preference": [
+        "solo_worker"
+      ]
     },
-    "platforms": ["クラウドワークス", "ランサーズ"],
-    "related_offers": [],
+    "platforms": [
+      "クラウドワークス",
+      "ランサーズ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": false,
     "priority": 3
   },
@@ -128,13 +251,26 @@ const GENRES = [
     "startup_cost_text": "無料",
     "conditions_text": "特別なスキルは不要。大きな収入にはなりにくい。",
     "tags": {
-      "skill": ["none"],
-      "purpose": ["quick_cash", "hobby"],
-      "time_commitment": ["under_30min"],
+      "skill": [
+        "none"
+      ],
+      "purpose": [
+        "quick_cash",
+        "hobby"
+      ],
+      "time_commitment": [
+        "under_30min"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker", "either"]
+      "social_preference": [
+        "solo_worker",
+        "either"
+      ]
     },
-    "platforms": ["マクロミル", "リサーチパネル"],
+    "platforms": [
+      "マクロミル",
+      "リサーチパネル"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
@@ -148,14 +284,38 @@ const GENRES = [
     "startup_cost_text": "基本無料(プラットフォーム登録のみ)",
     "conditions_text": "教えられる専門知識・経験が必要。人にわかりやすく説明するスキルも求められる。",
     "tags": {
-      "skill": ["communication", "writing", "design", "data"],
-      "purpose": ["skill_up", "independence", "hobby"],
-      "time_commitment": ["weekend_only", "1_2h"],
+      "skill": [
+        "communication",
+        "writing",
+        "design",
+        "data"
+      ],
+      "purpose": [
+        "skill_up",
+        "independence",
+        "hobby"
+      ],
+      "time_commitment": [
+        "weekend_only",
+        "1_2h"
+      ],
       "requires_budget": false,
-      "social_preference": ["people_person", "either"]
+      "social_preference": [
+        "people_person",
+        "either"
+      ]
     },
-    "platforms": ["ストアカ", "ココナラ"],
-    "related_offers": [],
+    "platforms": [
+      "ストアカ",
+      "ココナラ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 2
   },
@@ -168,13 +328,27 @@ const GENRES = [
     "startup_cost_text": "材料費として数千円〜",
     "conditions_text": "制作スキルと継続的な材料仕入れが必要。",
     "tags": {
-      "skill": ["design", "physical"],
-      "purpose": ["hobby", "quick_cash"],
-      "time_commitment": ["weekend_only", "3h_plus"],
+      "skill": [
+        "design",
+        "physical"
+      ],
+      "purpose": [
+        "hobby",
+        "quick_cash"
+      ],
+      "time_commitment": [
+        "weekend_only",
+        "3h_plus"
+      ],
       "requires_budget": true,
-      "social_preference": ["solo_worker"]
+      "social_preference": [
+        "solo_worker"
+      ]
     },
-    "platforms": ["minne", "Creema"],
+    "platforms": [
+      "minne",
+      "Creema"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
@@ -188,13 +362,26 @@ const GENRES = [
     "startup_cost_text": "基本無料",
     "conditions_text": "移動を伴う実働がメイン。体力とホスピタリティが求められる。",
     "tags": {
-      "skill": ["physical", "communication"],
-      "purpose": ["quick_cash"],
-      "time_commitment": ["weekend_only", "3h_plus"],
+      "skill": [
+        "physical",
+        "communication"
+      ],
+      "purpose": [
+        "quick_cash"
+      ],
+      "time_commitment": [
+        "weekend_only",
+        "3h_plus"
+      ],
       "requires_budget": false,
-      "social_preference": ["people_person"]
+      "social_preference": [
+        "people_person"
+      ]
     },
-    "platforms": ["CaSy", "タスカジ"],
+    "platforms": [
+      "CaSy",
+      "タスカジ"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
@@ -208,13 +395,25 @@ const GENRES = [
     "startup_cost_text": "無料",
     "conditions_text": "特別なスキルは不要。当日〜数日前の応募で働ける手軽さが特徴。",
     "tags": {
-      "skill": ["physical", "none"],
-      "purpose": ["quick_cash"],
-      "time_commitment": ["weekend_only", "3h_plus"],
+      "skill": [
+        "physical",
+        "none"
+      ],
+      "purpose": [
+        "quick_cash"
+      ],
+      "time_commitment": [
+        "weekend_only",
+        "3h_plus"
+      ],
       "requires_budget": false,
-      "social_preference": ["either"]
+      "social_preference": [
+        "either"
+      ]
     },
-    "platforms": ["タイミー"],
+    "platforms": [
+      "タイミー"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
@@ -228,13 +427,25 @@ const GENRES = [
     "startup_cost_text": "無料",
     "conditions_text": "観察力と、決められた項目をレポートにまとめる文章力が求められる。",
     "tags": {
-      "skill": ["writing", "none"],
-      "purpose": ["hobby", "quick_cash"],
-      "time_commitment": ["weekend_only"],
+      "skill": [
+        "writing",
+        "none"
+      ],
+      "purpose": [
+        "hobby",
+        "quick_cash"
+      ],
+      "time_commitment": [
+        "weekend_only"
+      ],
       "requires_budget": false,
-      "social_preference": ["either"]
+      "social_preference": [
+        "either"
+      ]
     },
-    "platforms": ["ファンくる"],
+    "platforms": [
+      "ファンくる"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
@@ -248,13 +459,26 @@ const GENRES = [
     "startup_cost_text": "無料",
     "conditions_text": "大きな収入にはなりにくいが、リスクなく始められる。",
     "tags": {
-      "skill": ["none"],
-      "purpose": ["quick_cash", "hobby"],
-      "time_commitment": ["under_30min"],
+      "skill": [
+        "none"
+      ],
+      "purpose": [
+        "quick_cash",
+        "hobby"
+      ],
+      "time_commitment": [
+        "under_30min"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker", "either"]
+      "social_preference": [
+        "solo_worker",
+        "either"
+      ]
     },
-    "platforms": ["ハピタス", "モッピー"],
+    "platforms": [
+      "ハピタス",
+      "モッピー"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 4
@@ -268,14 +492,35 @@ const GENRES = [
     "startup_cost_text": "基本無料",
     "conditions_text": "SNSの投稿・分析スキル、継続的な投稿設計力が求められる。",
     "tags": {
-      "skill": ["writing", "design", "communication"],
-      "purpose": ["skill_up", "independence"],
-      "time_commitment": ["1_2h", "3h_plus"],
+      "skill": [
+        "writing",
+        "design",
+        "communication"
+      ],
+      "purpose": [
+        "skill_up",
+        "independence"
+      ],
+      "time_commitment": [
+        "1_2h",
+        "3h_plus"
+      ],
       "requires_budget": false,
-      "social_preference": ["either"]
+      "social_preference": [
+        "either"
+      ]
     },
-    "platforms": ["クラウドワークス", "ココナラ"],
-    "related_offers": [],
+    "platforms": [
+      "クラウドワークス",
+      "ココナラ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 2
   },
@@ -288,14 +533,34 @@ const GENRES = [
     "startup_cost_text": "基本無料",
     "conditions_text": "一定以上の語学力(英語・中国語等)が必要。",
     "tags": {
-      "skill": ["writing", "data"],
-      "purpose": ["skill_up", "independence"],
-      "time_commitment": ["1_2h", "3h_plus"],
+      "skill": [
+        "writing",
+        "data"
+      ],
+      "purpose": [
+        "skill_up",
+        "independence"
+      ],
+      "time_commitment": [
+        "1_2h",
+        "3h_plus"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker"]
+      "social_preference": [
+        "solo_worker"
+      ]
     },
-    "platforms": ["クラウドワークス", "ランサーズ"],
-    "related_offers": [],
+    "platforms": [
+      "クラウドワークス",
+      "ランサーズ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 2
   },
@@ -308,14 +573,34 @@ const GENRES = [
     "startup_cost_text": "基本無料",
     "conditions_text": "基本的なPCスキル(Excel・メール対応等)とレスポンスの早さが求められる。",
     "tags": {
-      "skill": ["data", "communication"],
-      "purpose": ["quick_cash", "independence"],
-      "time_commitment": ["1_2h", "3h_plus"],
+      "skill": [
+        "data",
+        "communication"
+      ],
+      "purpose": [
+        "quick_cash",
+        "independence"
+      ],
+      "time_commitment": [
+        "1_2h",
+        "3h_plus"
+      ],
       "requires_budget": false,
-      "social_preference": ["either"]
+      "social_preference": [
+        "either"
+      ]
     },
-    "platforms": ["クラウドワークス", "フジ子さん"],
-    "related_offers": [],
+    "platforms": [
+      "クラウドワークス",
+      "フジ子さん"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": false,
     "priority": 3
   },
@@ -328,14 +613,35 @@ const GENRES = [
     "startup_cost_text": "基本無料",
     "conditions_text": "指導する分野の専門知識と、わかりやすく教えるスキルが必要。",
     "tags": {
-      "skill": ["communication", "data", "writing"],
-      "purpose": ["skill_up", "independence"],
-      "time_commitment": ["weekend_only", "1_2h"],
+      "skill": [
+        "communication",
+        "data",
+        "writing"
+      ],
+      "purpose": [
+        "skill_up",
+        "independence"
+      ],
+      "time_commitment": [
+        "weekend_only",
+        "1_2h"
+      ],
       "requires_budget": false,
-      "social_preference": ["people_person"]
+      "social_preference": [
+        "people_person"
+      ]
     },
-    "platforms": ["ストアカ", "ココナラ"],
-    "related_offers": [],
+    "platforms": [
+      "ストアカ",
+      "ココナラ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウディアで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWR+FHVFV6+4F8I+BYLJM",
+        "type": "affiliate"
+      }
+    ],
     "links_to_subsidy_checker": true,
     "priority": 2
   },
@@ -348,13 +654,26 @@ const GENRES = [
     "startup_cost_text": "カメラ・デザインソフト等、すでに持っている機材で始められることも多い",
     "conditions_text": "一定水準の撮影・制作スキルが必要。収益化まで時間がかかることが多い。",
     "tags": {
-      "skill": ["design", "physical"],
-      "purpose": ["hobby", "skill_up"],
-      "time_commitment": ["weekend_only"],
+      "skill": [
+        "design",
+        "physical"
+      ],
+      "purpose": [
+        "hobby",
+        "skill_up"
+      ],
+      "time_commitment": [
+        "weekend_only"
+      ],
       "requires_budget": false,
-      "social_preference": ["solo_worker"]
+      "social_preference": [
+        "solo_worker"
+      ]
     },
-    "platforms": ["PIXTA", "Adobe Stock"],
+    "platforms": [
+      "PIXTA",
+      "Adobe Stock"
+    ],
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
