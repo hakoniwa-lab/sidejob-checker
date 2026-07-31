@@ -46,6 +46,8 @@ sidejob-checker/
 
 `links_to_subsidy_checker: true` を付けたジャンルは、回答の`purpose`が`skill_up`のとき、結果カードに[[subsidy-checker]](給付金・補助金診断アプリ)への相対リンク(`../subsidy-checker/`)が表示される。この相対パスは、両アプリがGitHub Pages上で兄弟リポジトリ(`hakoniwa-lab.github.io/subsidy-checker/` と `hakoniwa-lab.github.io/sidejob-checker/`)として公開されている前提で機能する。ローカルの別ポートサーバーでは正しく動作しないので、クロスリンクの実地確認はデプロイ後に行うこと。
 
+2026-07-31、回答の`purpose`が`independence`のときは[[career-checker]](転職エージェント診断アプリ)への相対リンク(`../career-checker/`)も表示するようにした(`js/render.js`の`buildCrossLinkBanner`)。subsidy-checker/career-checker側にも同様の相互リンクを実装済みで、3アプリ間で双方向にたどれる。
+
 収入目安・必要スキル等のデータは一般的な相場観として記述しており、公的制度のような一次情報検証は行っていない。断定的な数字ではなく幅を持たせた表現にしている。
 
 ## マネタイズ導線

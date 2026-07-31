@@ -27,8 +27,13 @@ function buildOfferLinks(genre) {
 }
 
 function buildCrossLinkBanner(genre, purpose) {
-  if (!genre.links_to_subsidy_checker || purpose !== "skill_up") return "";
-  return `<a class="cross-link-banner" href="../subsidy-checker/">このジャンルは教育訓練給付金の対象講座がある場合があります。給付金・補助金診断で確認する →</a>`;
+  if (genre.links_to_subsidy_checker && purpose === "skill_up") {
+    return `<a class="cross-link-banner" href="../subsidy-checker/">このジャンルは教育訓練給付金の対象講座がある場合があります。給付金・補助金診断で確認する →</a>`;
+  }
+  if (purpose === "independence") {
+    return `<a class="cross-link-banner" href="../career-checker/">将来的な独立・フリーランス転向に合いそうな転職エージェントも、転職エージェント診断で確認できます →</a>`;
+  }
+  return "";
 }
 
 function buildResultCard(genre, purpose) {
