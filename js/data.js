@@ -115,6 +115,11 @@ const GENRES = [
     ],
     "related_offers": [
       {
+        "label": "クラウドワークス テックで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+6BFV4I+2OM2+ZQFQA",
+        "type": "affiliate"
+      },
+      {
         "label": "クラウドワークスで案件を探す",
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
         "type": "affiliate"
@@ -127,6 +132,56 @@ const GENRES = [
       {
         "label": "ココナラで案件を探す",
         "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+67V9HU+2PEO+1HL85U",
+        "type": "affiliate"
+      }
+    ],
+    "links_to_subsidy_checker": true,
+    "priority": 1
+  },
+  {
+    "id": "it-engineer",
+    "name": "ITエンジニア(システム開発・インフラ)",
+    "category": "IT・スキル系",
+    "summary": "システム開発・インフラ構築・保守運用など、エンジニア経験を活かした案件を請け負う副業。実務経験があれば単価の高い案件を受けやすい。",
+    "income_text": "月数万円〜、実務経験者は月30万円以上の案件を受けることも",
+    "startup_cost_text": "基本無料(業務用PC・開発環境があればOK)",
+    "conditions_text": "システム開発・インフラ運用いずれかの実務経験があると案件を受けやすい。未経験の場合は学習期間が必要。",
+    "tags": {
+      "skill": [
+        "data"
+      ],
+      "purpose": [
+        "skill_up",
+        "independence"
+      ],
+      "time_commitment": [
+        "3h_plus",
+        "weekend_only"
+      ],
+      "requires_budget": false,
+      "social_preference": [
+        "solo_worker",
+        "either"
+      ]
+    },
+    "platforms": [
+      "クラウドワークス",
+      "ランサーズ"
+    ],
+    "related_offers": [
+      {
+        "label": "クラウドワークス テックで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWV+6BFV4I+2OM2+ZQFQA",
+        "type": "affiliate"
+      },
+      {
+        "label": "クラウドワークスで案件を探す",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "type": "affiliate"
+      },
+      {
+        "label": "IT求人ナビ フリーランスで案件を探す",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B8BWS+3H1B2Q+4LXM+5YJRM",
         "type": "affiliate"
       }
     ],

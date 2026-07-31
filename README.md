@@ -52,6 +52,8 @@ sidejob-checker/
 
 各ジャンルの `related_offers` フィールド(`{label, url, type}`形式のオブジェクト配列)に追加すると、結果カードに「PR」バッジ付きボタンが自動表示される(`js/render.js`の`buildOfferLinks`)。2026-07-29に、`platforms`にクラウドワークス/ランサーズ/ココナラのいずれかを含むジャンル(10件)にA8.net「クラウディア」、`web-development`に「IT求人ナビ フリーランス」を実装(いずれもsubsidy-checkerで承認済みのA8.net案件を流用)。リンクは`rel="noopener sponsored"`付与、フッターにもプロモーション表記あり(景品表示法のステマ規制対応)。他のジャンル(せどり・すきま時間系・物販等)向けの案件は未選定。
 
+2026-07-31、A8.net「クラウドワークス テック」(フリーランスエンジニア向け案件紹介、`a8mat=4B8BWV+6BFV4I+2OM2+ZQFQA`)を実装。`web-development`の`related_offers`に追加した他、対象を広げるため新規ジャンル`it-engineer`(ITエンジニア(システム開発・インフラ))を追加し、そちらにも同オファーを実装。18件→19件。
+
 ## デプロイ
 
 `sidejob-checker/` フォルダをそのまま `hakoniwa-lab` アカウント配下の新規リポジトリ(`hakoniwa-lab/sidejob-checker`)にpushし、GitHub Pages(ブランチ`main`・ルート)を有効化する。git commitのauthor設定は、このリポジトリのローカル`git config`で`hakoniwa-lab <309971408+hakoniwa-lab@users.noreply.github.com>`に設定すること(globalのペルソナ設定を変更しない)。
