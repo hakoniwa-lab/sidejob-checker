@@ -27,13 +27,15 @@ function buildOfferLinks(genre) {
 }
 
 function buildCrossLinkBanner(genre, purpose) {
+  const banners = [];
   if (genre.links_to_subsidy_checker && purpose === "skill_up") {
-    return `<a class="cross-link-banner" href="../subsidy-checker/">このジャンルは教育訓練給付金の対象講座がある場合があります。給付金・補助金診断で確認する →</a>`;
+    banners.push(`<a class="cross-link-banner" href="../subsidy-checker/">このジャンルは教育訓練給付金の対象講座がある場合があります。給付金・補助金診断で確認する →</a>`);
   }
   if (purpose === "independence") {
-    return `<a class="cross-link-banner" href="../career-checker/">将来的な独立・フリーランス転向に合いそうな転職エージェントも、転職エージェント診断で確認できます →</a>`;
+    banners.push(`<a class="cross-link-banner" href="../career-checker/">将来的な独立・フリーランス転向に合いそうな転職エージェントも、転職エージェント診断で確認できます →</a>`);
   }
-  return "";
+  banners.push(`<a class="cross-link-banner" href="../sidejob-tax-simulator/">副業でいくら税金が増えるか、確定申告が必要かを副業の税金シミュレーターで確認する →</a>`);
+  return banners.join("");
 }
 
 function buildResultCard(genre, purpose) {
