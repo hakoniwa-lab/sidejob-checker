@@ -34,6 +34,9 @@ function buildCrossLinkBanner(genre, purpose) {
   if (purpose === "independence") {
     banners.push(`<a class="cross-link-banner" href="../career-checker/">将来的な独立・フリーランス転向に合いそうな転職エージェントも、転職エージェント診断で確認できます →</a>`);
   }
+  if (purpose === "quick_cash") {
+    banners.push(`<a class="cross-link-banner" href="../takehome-calculator/">本業の手取り額も手取り年収シミュレーターで確認しておくと安心です →</a>`);
+  }
   banners.push(`<a class="cross-link-banner" href="../sidejob-tax-simulator/">副業でいくら税金が増えるか、確定申告が必要かを副業の税金シミュレーターで確認する →</a>`);
   return banners.join("");
 }
