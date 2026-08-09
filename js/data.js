@@ -34,7 +34,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
@@ -121,7 +121,7 @@ const GENRES = [
       },
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
@@ -176,7 +176,7 @@ const GENRES = [
       },
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
@@ -220,7 +220,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
@@ -266,7 +266,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
@@ -310,7 +310,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       }
     ],
@@ -387,7 +387,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
@@ -603,7 +603,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
@@ -648,7 +648,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       }
     ],
@@ -688,7 +688,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       }
     ],
@@ -729,7 +729,7 @@ const GENRES = [
     "related_offers": [
       {
         "label": "クラウドワークスで案件を探す",
-        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777130&pid=892668921",
+        "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
       },
       {
