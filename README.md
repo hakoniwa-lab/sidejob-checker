@@ -56,6 +56,10 @@ sidejob-checker/
 
 2026-07-31、A8.net「クラウドワークス テック」(フリーランスエンジニア向け案件紹介、`a8mat=4B8BWV+6BFV4I+2OM2+ZQFQA`)を実装。`web-development`の`related_offers`に追加した他、対象を広げるため新規ジャンル`it-engineer`(ITエンジニア(システム開発・インフラ))を追加し、そちらにも同オファーを実装。18件→19件。
 
+2026-09-20、`housekeeping` を「家事代行・料理代行」に広げ、タスカジ(家事代行スタッフ募集・料理代行の仕事)のリンクを追加。
+A8は提携申請中(審査中: s00000019448001・s00000019448003、どちらもオンライン面談10,000円)なので、承認までは
+`type: "official"`(広告ではない公式ページへのリンク。PR表記と sponsored を付けない)にしている。承認されたら A8 のリンクに替えて `type` を `affiliate` に戻す。
+
 ## デプロイ
 
 `sidejob-checker/` フォルダをそのまま `hakoniwa-lab` アカウント配下の新規リポジトリ(`hakoniwa-lab/sidejob-checker`)にpushし、GitHub Pages(ブランチ`main`・ルート)を有効化する。git commitのauthor設定は、このリポジトリのローカル`git config`で`hakoniwa-lab <309971408+hakoniwa-lab@users.noreply.github.com>`に設定すること(globalのペルソナ設定を変更しない)。

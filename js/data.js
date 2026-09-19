@@ -441,9 +441,9 @@ const GENRES = [
   },
   {
     "id": "housekeeping",
-    "name": "家事代行",
+    "name": "家事代行・料理代行",
     "category": "実務・接客系",
-    "summary": "掃除や料理など家事全般を代行するお仕事。体を動かすのが好きな人に向いている。",
+    "summary": "掃除や料理など家事全般を代行するお仕事。料理が得意なら、作り置きなど料理だけを引き受ける料理代行もある。体を動かすのが好きな人に向いている。",
     "income_text": "時給1000〜1800円程度が相場",
     "startup_cost_text": "基本無料",
     "conditions_text": "移動を伴う実働がメイン。体力とホスピタリティが求められる。",
@@ -468,7 +468,18 @@ const GENRES = [
       "CaSy",
       "タスカジ"
     ],
-    "related_offers": [],
+    "related_offers": [
+      {
+        "label": "タスカジで家事代行スタッフに応募する",
+        "url": "https://taskaji.jp/keeper/fun/",
+        "type": "official"
+      },
+      {
+        "label": "タスカジで料理代行の仕事を探す",
+        "url": "https://lp.taskaji.jp/lp6",
+        "type": "official"
+      }
+    ],
     "links_to_subsidy_checker": false,
     "priority": 3
   },
