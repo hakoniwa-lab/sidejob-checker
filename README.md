@@ -44,6 +44,10 @@ sidejob-checker/
 - `requires_budget`: 初期費用(仕入れ資金・材料費等)が実質必須なジャンルは `true`(`budget=none`回答時にハード除外される)
 - `social_preference`: `people_person` / `solo_worker` / `either`
 
+### priorityの向き
+
+`data/genres.json`の`priority`は**1が最重要・数字が大きいほど重要度が低い**(1=Webライティング/プログラミング等の推したいジャンル、4=ポイ活)。`js/match.js`はスコア同点時に`priority`の小さい順で並べる。**2026-09-28にこのタイブレークの向きが逆(大きい数字が先)になっていた不具合を修正した**。同点だとポイ活がWebライティングより上に出ていたため。subsidy-checker/career-checker/insurance-checkerも同じ向き。
+
 `links_to_subsidy_checker: true` を付けたジャンルは、回答の`purpose`が`skill_up`のとき、結果カードに[[subsidy-checker]](給付金・補助金診断アプリ)への相対リンク(`../subsidy-checker/`)が表示される。この相対パスは、両アプリがGitHub Pages上で兄弟リポジトリ(`hakoniwa-lab.github.io/subsidy-checker/` と `hakoniwa-lab.github.io/sidejob-checker/`)として公開されている前提で機能する。ローカルの別ポートサーバーでは正しく動作しないので、クロスリンクの実地確認はデプロイ後に行うこと。
 
 2026-07-31、回答の`purpose`が`independence`のときは[[career-checker]](転職エージェント診断アプリ)への相対リンク(`../career-checker/`)も表示するようにした(`js/render.js`の`buildCrossLinkBanner`)。subsidy-checker/career-checker側にも同様の相互リンクを実装済みで、3アプリ間で双方向にたどれる。

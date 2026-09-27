@@ -53,14 +53,15 @@ function scoreGenre(genre, answers) {
 function matchGenres(genres, answers) {
   const primary = genres.map((g) => scoreGenre(g, answers)).filter((g) => !g.hardFail);
 
+  // 同点時は priority の小さい数字を優先表示する(1が最重要、数字が大きいほど重要度が低い)
   if (primary.length > 0) {
-    primary.sort((a, b) => b.score - a.score || (b.priority || 0) - (a.priority || 0));
+    primary.sort((a, b) => b.score - a.score || (a.priority || 99) - (b.priority || 99));
     return { results: primary, relaxed: false };
   }
 
   // 0件時のフォールバック: 初期費用の条件だけ緩めて再提示する
   const relaxedAnswers = Object.assign({}, answers, { budget: "over_10k" });
   const relaxed = genres.map((g) => scoreGenre(g, relaxedAnswers)).filter((g) => !g.hardFail);
-  relaxed.sort((a, b) => b.score - a.score || (b.priority || 0) - (a.priority || 0));
+  relaxed.sort((a, b) => b.score - a.score || (a.priority || 99) - (b.priority || 99));
   return { results: relaxed, relaxed: true };
 }
