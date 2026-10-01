@@ -468,18 +468,7 @@
       "CaSy",
       "タスカジ"
     ],
-    "related_offers": [
-      {
-        "label": "タスカジで家事代行スタッフに応募する",
-        "url": "https://taskaji.jp/keeper/fun/",
-        "type": "official"
-      },
-      {
-        "label": "タスカジで料理代行の仕事を探す",
-        "url": "https://lp.taskaji.jp/lp6",
-        "type": "official"
-      }
-    ],
+    "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
   },
