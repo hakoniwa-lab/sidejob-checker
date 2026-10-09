@@ -690,6 +690,11 @@ const GENRES = [
         "label": "クラウドワークスで案件を探す",
         "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3777128&pid=892676011",
         "type": "affiliate"
+      },
+      {
+        "label": "ユーキャンのマイクロソフト オフィス スペシャリスト（MOS）講座",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4BCFNI+6PQ9N6+3WUK+63WO2",
+        "type": "affiliate"
       }
     ],
     "links_to_subsidy_checker": false,
