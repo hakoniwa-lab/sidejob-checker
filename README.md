@@ -67,3 +67,10 @@ A8は提携申請中(審査中: s00000019448001・s00000019448003、どちらも
 ## デプロイ
 
 `sidejob-checker/` フォルダをそのまま `hakoniwa-lab` アカウント配下の新規リポジトリ(`hakoniwa-lab/sidejob-checker`)にpushし、GitHub Pages(ブランチ`main`・ルート)を有効化する。git commitのauthor設定は、このリポジトリのローカル`git config`で`hakoniwa-lab <309971408+hakoniwa-lab@users.noreply.github.com>`に設定すること(globalのペルソナ設定を変更しない)。
+
+## 2026-10-21 広告のあるページの冒頭の PR 表記
+
+A8 の案件ページに「広告とわかる表示をファーストビュー等にわかりやすく(無いと提携解除の可能性)」とあるので、広告(A8・アクセストレード・バリューコマース)のあるページの見出しの直下に `<p class="pr-note">…プロモーション(広告)が含まれます。</p>` を出した(CSS は css/style.css の `.pr-note`。`.app-header` の直後は中央寄せ)。各リンクの「PR」バッジとフッターの注記はそのまま。**新しく広告を入れるページにも同じ1行を入れる。**
+
+- index.html(診断結果の広告は js)
+- guide/kaigyo-todoke-teishutsu/・guide/mailmag-jusho-virtual-office/(手書き)
