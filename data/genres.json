@@ -778,5 +778,44 @@
     "related_offers": [],
     "links_to_subsidy_checker": false,
     "priority": 3
+  },
+  {
+    "id": "statistics-surveyor",
+    "name": "統計調査員(国勢調査・家計調査など)",
+    "category": "実務・接客系",
+    "summary": "国や都道府県が行う統計調査で、調査票を世帯や事業所に配って記入の仕方を説明し、回収・点検する仕事。調査のたびに非常勤の公務員として任命される、公的な単発の仕事。",
+    "income_text": "報酬は調査の種類と日数で決まり、法律や条例にもとづいて支払われる(金額は調査や自治体によって違う)",
+    "startup_cost_text": "無料",
+    "conditions_text": "都道府県や市区町村の統計担当の部署に登録し、面接で働ける時期や地域を伝える。仕事は調査があるときだけ(国勢調査は5年ごと、労働力調査・家計調査は毎月)。一般の公務員と違い営利事業に従事する制限はないが、本業の勤め先の副業の決まりは別に確かめる。守秘義務があり、調査中のけがには公務災害補償が使える。",
+    "tags": {
+      "skill": [
+        "communication",
+        "physical"
+      ],
+      "purpose": [
+        "quick_cash"
+      ],
+      "time_commitment": [
+        "1_2h",
+        "weekend_only"
+      ],
+      "requires_budget": false,
+      "social_preference": [
+        "people_person",
+        "either"
+      ]
+    },
+    "platforms": [
+      "都道府県・市区町村の統計担当課(登録調査員)"
+    ],
+    "related_offers": [
+      {
+        "label": "総務省「統計調査員の募集などについて」",
+        "url": "https://www.soumu.go.jp/toukei_toukatsu/index/seido/2-7-2.html",
+        "type": "official"
+      }
+    ],
+    "links_to_subsidy_checker": false,
+    "priority": 3
   }
 ]
